@@ -1,0 +1,117 @@
+<div class="contact-page bg-background-dark font-display text-slate-100 overflow-x-hidden">
+<div class="grainy-overlay fixed inset-0 z-40"></div>
+<header class="fixed top-0 z-[60] w-full border-b border-white/5 px-4 sm:px-6 lg:px-12 py-4 sm:py-6 flex items-center justify-between mix-blend-difference">
+<a class="flex items-center gap-2 text-primary" href="/">
+<span class="material-symbols-outlined text-3xl">bolt</span>
+<h2 class="text-xl sm:text-2xl font-black tracking-tighter uppercase font-sans">IWM</h2>
+</a>
+<nav class="hidden md:flex items-center gap-12">
+<a class="hover:text-primary transition-colors text-xs font-bold uppercase tracking-[0.3em] font-sans" href="/">Home</a>
+<a class="hover:text-primary transition-colors text-xs font-bold uppercase tracking-[0.3em] font-sans" href="/case-study">Work</a>
+<a class="hover:text-primary transition-colors text-xs font-bold uppercase tracking-[0.3em] font-sans" href="/about">About</a>
+<a class="hover:text-primary transition-colors text-xs font-bold uppercase tracking-[0.3em] font-sans" href="/services">Services</a>
+<a class="text-primary transition-colors text-xs font-bold uppercase tracking-[0.3em] font-sans underline underline-offset-8" href="/contact">Contact</a>
+</nav>
+<div class="flex items-center gap-3 sm:gap-6">
+<button aria-controls="mobile-menu" aria-expanded="false" class="mobile-menu-toggle md:hidden text-white" data-menu-toggle="mobile-menu" type="button">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+<a class="bg-primary hover:bg-red-700 text-white px-4 sm:px-8 py-2 sm:py-3 rounded-none font-bold uppercase text-[10px] tracking-[0.22em] transition-all font-sans" href="/contact">
+            New Project
+        </a>
+</div>
+</header>
+<div class="mobile-menu hidden fixed inset-0 z-[80]" data-mobile-menu="mobile-menu">
+<button aria-label="Close menu" class="mobile-menu-backdrop absolute inset-0 bg-black/70 backdrop-blur-sm" data-menu-close="mobile-menu" type="button"></button>
+<aside class="mobile-menu-panel absolute right-0 top-0 h-full w-[86vw] max-w-sm bg-background-dark border-l border-white/10 p-6 flex flex-col">
+<div class="flex items-center justify-between">
+<a class="flex items-center gap-2 text-primary" href="/">
+<span class="material-symbols-outlined text-3xl">bolt</span>
+<h2 class="text-xl font-black tracking-tighter uppercase font-sans">IWM</h2>
+</a>
+<button aria-label="Close menu" class="text-white" data-menu-close="mobile-menu" type="button">
+<span class="material-symbols-outlined text-3xl">close</span>
+</button>
+</div>
+<nav class="mt-12 flex flex-col gap-6">
+<a class="mobile-menu-link text-xl font-black uppercase tracking-[0.18em]" href="/">Home</a>
+<a class="mobile-menu-link text-xl font-black uppercase tracking-[0.18em]" href="/case-study">Work</a>
+<a class="mobile-menu-link text-xl font-black uppercase tracking-[0.18em]" href="/about">About</a>
+<a class="mobile-menu-link text-xl font-black uppercase tracking-[0.18em]" href="/services">Services</a>
+<a class="mobile-menu-link text-xl font-black uppercase tracking-[0.18em] text-primary" href="/contact">Contact</a>
+</nav>
+<a class="mt-auto inline-flex items-center justify-between bg-primary text-white px-5 py-4 font-black uppercase text-[10px] tracking-[0.28em]" href="/contact">
+                Start a Project
+                <span class="material-symbols-outlined text-xl">arrow_forward</span>
+            </a>
+</aside>
+</div>
+<main class="relative z-10 flex flex-col lg:flex-row min-h-screen pt-24 sm:pt-28 lg:pt-0">
+<section class="lg:w-1/2 bg-primary flex items-center justify-center relative overflow-hidden min-h-[48svh] sm:min-h-[56svh] lg:min-h-screen">
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent"></div>
+<h1 class="contact-vertical-text text-white text-[11vh] sm:text-[13vh] lg:text-[18vh] font-light leading-none tracking-tighter uppercase select-none">
+                LET'S CREATE MAGIC
+            </h1>
+<div class="absolute bottom-8 sm:bottom-12 left-6 sm:left-12 flex flex-col gap-2">
+<span class="text-[10px] font-black font-sans uppercase tracking-[0.4em] text-white/60">Phase 01</span>
+<span class="text-xs font-bold font-sans uppercase tracking-widest text-white">Discovery &amp; Audit</span>
+</div>
+</section>
+<section class="lg:w-1/2 bg-background-dark flex flex-col justify-center px-6 sm:px-8 py-20 sm:py-24 lg:px-24 lg:py-32">
+<div class="max-w-xl w-full mx-auto">
+<div class="mb-12 sm:mb-16">
+<span class="inline-block bg-primary text-white text-[9px] font-black uppercase px-2 py-1 tracking-widest mb-6">Contact</span>
+<h1 class="text-4xl sm:text-5xl lg:text-7xl font-light uppercase tracking-tighter leading-tight mb-4">
+                        GET A FREE AUDIT
+                    </h1>
+<p class="text-slate-400 italic text-lg">
+                        Let's uncover the friction points in your commerce journey and curate a strategy that scales.
+                    </p>
+</div>
+<form action="https://formspree.io/f/your-form-id" class="space-y-10 sm:space-y-12" method="POST">
+<input name="_subject" type="hidden" value="New IWM audit request"/>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+<div class="group">
+<label class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 block group-focus-within:text-accent-blue transition-colors" for="contact-name">Name</label>
+<input class="contact-form-input font-sans text-sm text-white placeholder:text-zinc-700" id="contact-name" name="name" placeholder="John Doe" required type="text"/>
+</div>
+<div class="group">
+<label class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 block group-focus-within:text-accent-blue transition-colors" for="contact-email">Email</label>
+<input class="contact-form-input font-sans text-sm text-white placeholder:text-zinc-700" id="contact-email" name="email" placeholder="john@brand.com" required type="email"/>
+</div>
+</div>
+<div class="group">
+<label class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 block group-focus-within:text-accent-blue transition-colors" for="contact-url">Current URL</label>
+<input class="contact-form-input font-sans text-sm text-white placeholder:text-zinc-700" id="contact-url" name="website" placeholder="www.yourstore.com" type="url"/>
+</div>
+<div class="group">
+<label class="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2 block group-focus-within:text-accent-blue transition-colors" for="contact-message">Main Challenge</label>
+<textarea class="contact-form-input font-sans text-sm text-white placeholder:text-zinc-700 resize-none min-h-[5rem]" id="contact-message" name="message" placeholder="Tell us what's keeping you up at night..." required rows="3"></textarea>
+</div>
+<div class="pt-4 sm:pt-8">
+<button class="w-full bg-white text-black hover:bg-primary hover:text-white py-6 sm:py-8 px-6 sm:px-8 font-black uppercase text-xs tracking-[0.35em] transition-all duration-500 font-sans group flex items-center justify-between" type="submit">
+<span>Request Your Free Audit</span>
+<span class="material-symbols-outlined transform group-hover:translate-x-2 transition-transform">arrow_right_alt</span>
+</button>
+<p class="mt-6 text-[9px] text-zinc-600 font-sans tracking-widest uppercase">
+                            Powered by Formspree. Typical response within 24 hours.
+                        </p>
+</div>
+</form>
+</div>
+</section>
+</main>
+<footer class="bg-black/40 backdrop-blur-md border-t border-white/5 px-4 sm:px-6 lg:px-12 py-12 relative z-10">
+<div class="flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex gap-8 sm:gap-12 text-[9px] font-black uppercase tracking-[0.4em] font-sans text-slate-400">
+<a class="hover:text-white transition-colors" href="#">Instagram</a>
+<a class="hover:text-white transition-colors" href="#">Behance</a>
+<a class="hover:text-white transition-colors" href="#">LinkedIn</a>
+</div>
+<div class="text-center md:text-right">
+<p class="text-[10px] font-black uppercase tracking-[0.2em] font-sans">I Want Magic Agency © 2024</p>
+<p class="text-[9px] text-slate-600 font-sans mt-1">THE NEW STANDARD FOR E-COMMERCE</p>
+</div>
+</div>
+</footer>
+</div>
